@@ -16,7 +16,7 @@ class Home extends StatelessWidget {
             //blue background
             backgroundColor: Color.fromARGB(255, 0, 0, 255),
           ),
-        ),
+        ), 
       ),
       body: Container(
         height: 400,
