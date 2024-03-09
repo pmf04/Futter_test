@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:test/pages/home.dart';
+// import 'package:test/pages/home2.dart';
+import 'package:test/pages/homePage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Myster PMF',
-      home: Home(),
+      home: HomePage(),
     );
   }
 }

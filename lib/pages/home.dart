@@ -23,8 +23,9 @@ class Home extends StatelessWidget {
         height: 400,
         width: double.infinity,
         color: Colors.cyan,
-        child: Card(),
+        child: const Text("Hello, Myster PMF"),
       ),
+      // bottomNavigationBar: ,
     );
   }
 }
